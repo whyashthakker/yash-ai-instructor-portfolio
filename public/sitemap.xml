@@ -48,4 +48,110 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- AI Product Pages -->
+  <url>
+    <loc>https://goyashy.com/ai-instructor</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://goyashy.com/genai-instructor</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://goyashy.com/ai-instructor-india</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://goyashy.com/genai-courses</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://goyashy.com/ai-courses-online</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://goyashy.com/machine-learning-instructor</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://goyashy.com/ai-bootcamp</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://goyashy.com/prompt-engineering-course</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://goyashy.com/chatgpt-course</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://goyashy.com/ai-for-business</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://goyashy.com/ai-consulting</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://goyashy.com/ai-content-creation</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://goyashy.com/ai-for-marketing</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://goyashy.com/ai-productivity-tools</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://goyashy.com/ai-workshop</loc>
+    <lastmod>2025-08-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
