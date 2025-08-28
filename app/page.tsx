@@ -19,17 +19,17 @@ export default function Home() {
         </div>
         
         <div className="text-center space-y-3">
-          <h1 className="text-4xl font-bold">Yash Thakker</h1>
-          <p className="text-gray-600 text-lg">AI Instructor & Product Leader</p>
-          <p className="text-sm text-gray-500 max-w-xs leading-relaxed">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold">Yash Thakker</h1>
+          <p className="text-gray-600 text-base sm:text-lg">AI Instructor & Product Leader</p>
+          <p className="text-xs sm:text-sm text-gray-500 max-w-xs leading-relaxed px-2">
             12+ years building AI products & teaching 120K+ students worldwide
           </p>
         </div>
 
         {/* Expertise */}
-        <div className="text-center space-y-4 max-w-xs">
-          <h3 className="text-lg font-semibold text-gray-800">Core Expertise</h3>
-          <div className="grid grid-cols-2 gap-2 text-xs text-gray-600">
+        <div className="text-center space-y-2 lg:space-y-4 max-w-xs">
+          <h3 className="text-base lg:text-lg font-semibold text-gray-800">Core Expertise</h3>
+          <div className="grid grid-cols-2 gap-1 lg:gap-2 text-xs text-gray-600">
             <div className="text-left">
               <div>• Generative AI</div>
               <div>• Product Strategy</div>
@@ -49,8 +49,8 @@ export default function Home() {
         {/* Primary CTA - Contact */}
         <div className="text-center space-y-3 w-full max-w-sm">
           <a href="mailto:yash@explainx.ai" 
-             className="inline-flex items-center justify-center w-full px-6 py-4 bg-[#d97757] text-white rounded-xl hover:bg-[#c86844] transition-colors text-sm font-semibold shadow-lg focus:outline-none focus:ring-2 focus:ring-[#d97757] focus:ring-offset-2">
-            <span className="w-5 h-5 mr-2 bg-white/20 rounded-full flex items-center justify-center">
+             className="inline-flex items-center justify-center w-full px-4 lg:px-6 py-3 lg:py-4 bg-[#d97757] text-white rounded-xl hover:bg-[#c86844] transition-colors text-xs lg:text-sm font-semibold shadow-lg focus:outline-none focus:ring-2 focus:ring-[#d97757] focus:ring-offset-2">
+            <span className="w-4 lg:w-5 h-4 lg:h-5 mr-1 lg:mr-2 bg-white/20 rounded-full flex items-center justify-center">
               <span className="text-xs font-bold">@</span>
             </span>
             Contact for Partnerships
@@ -61,17 +61,17 @@ export default function Home() {
         {/* Course Platforms */}
         <div className="text-center space-y-2 w-full max-w-sm">
           <h4 className="text-xs font-semibold text-gray-700">Courses & Education</h4>
-          <div className="flex gap-2 justify-center">
+          <div className="flex gap-1 lg:gap-2 justify-center">
             <a href="https://www.udemy.com/user/feelix-2" target="_blank" rel="noopener noreferrer"
-               className="flex-1 min-w-0 px-3 py-2 text-xs border border-gray-300 text-gray-600 rounded-lg hover:border-[#d97757] hover:text-[#d97757] transition-colors text-center">
+               className="flex-1 min-w-0 px-2 lg:px-3 py-2 text-xs border border-gray-300 text-gray-600 rounded-lg hover:border-[#d97757] hover:text-[#d97757] transition-colors text-center">
               Udemy
             </a>
             <a href="https://www.coursera.org/instructor/~164942694" target="_blank" rel="noopener noreferrer"
-               className="flex-1 min-w-0 px-3 py-2 text-xs border border-gray-300 text-gray-600 rounded-lg hover:border-[#d97757] hover:text-[#d97757] transition-colors text-center">
+               className="flex-1 min-w-0 px-2 lg:px-3 py-2 text-xs border border-gray-300 text-gray-600 rounded-lg hover:border-[#d97757] hover:text-[#d97757] transition-colors text-center">
               Coursera
             </a>
             <a href="https://try.codecademy.com/ai-2/us" target="_blank" rel="noopener noreferrer"
-               className="flex-1 min-w-0 px-3 py-2 text-xs border border-gray-300 text-gray-600 rounded-lg hover:border-[#d97757] hover:text-[#d97757] transition-colors text-center">
+               className="flex-1 min-w-0 px-2 lg:px-3 py-2 text-xs border border-gray-300 text-gray-600 rounded-lg hover:border-[#d97757] hover:text-[#d97757] transition-colors text-center">
               Codecademy
             </a>
           </div>
@@ -80,23 +80,23 @@ export default function Home() {
         {/* Social Platforms */}
         <div className="text-center space-y-2 w-full max-w-sm">
           <h4 className="text-xs font-semibold text-gray-700">Social & Content</h4>
-          <div className="flex gap-2 justify-center">
+          <div className="flex gap-1 lg:gap-2 justify-center">
             <a href="https://www.youtube.com/@goyashy" target="_blank" rel="noopener noreferrer"
-               className="flex-1 min-w-0 px-3 py-2 text-xs border border-gray-300 text-gray-600 rounded-lg hover:border-[#d97757] hover:text-[#d97757] transition-colors text-center">
+               className="flex-1 min-w-0 px-2 lg:px-3 py-2 text-xs border border-gray-300 text-gray-600 rounded-lg hover:border-[#d97757] hover:text-[#d97757] transition-colors text-center">
               YouTube
             </a>
             <a href="https://www.linkedin.com/in/goyashy/" target="_blank" rel="noopener noreferrer"
-               className="flex-1 min-w-0 px-3 py-2 text-xs border border-gray-300 text-gray-600 rounded-lg hover:border-[#d97757] hover:text-[#d97757] transition-colors text-center">
+               className="flex-1 min-w-0 px-2 lg:px-3 py-2 text-xs border border-gray-300 text-gray-600 rounded-lg hover:border-[#d97757] hover:text-[#d97757] transition-colors text-center">
               LinkedIn
             </a>
           </div>
-          <div className="flex gap-2 justify-center">
+          <div className="flex gap-1 lg:gap-2 justify-center">
             <a href="https://x.com/goyashy" target="_blank" rel="noopener noreferrer"
-               className="flex-1 min-w-0 px-3 py-2 text-xs border border-gray-300 text-gray-600 rounded-lg hover:border-[#d97757] hover:text-[#d97757] transition-colors text-center">
+               className="flex-1 min-w-0 px-2 lg:px-3 py-2 text-xs border border-gray-300 text-gray-600 rounded-lg hover:border-[#d97757] hover:text-[#d97757] transition-colors text-center">
               Twitter/X
             </a>
             <a href="https://instagram.com/goyashy.tech" target="_blank" rel="noopener noreferrer"
-               className="flex-1 min-w-0 px-3 py-2 text-xs border border-gray-300 text-gray-600 rounded-lg hover:border-[#d97757] hover:text-[#d97757] transition-colors text-center">
+               className="flex-1 min-w-0 px-2 lg:px-3 py-2 text-xs border border-gray-300 text-gray-600 rounded-lg hover:border-[#d97757] hover:text-[#d97757] transition-colors text-center">
               Instagram
             </a>
           </div>
@@ -104,12 +104,12 @@ export default function Home() {
       </div>
 
       {/* Right Side - Content */}
-      <div className="w-full lg:w-3/5 lg:ml-[40%] flex flex-col px-6 lg:pr-16 lg:pl-12 py-6 lg:py-12 space-y-8 lg:space-y-12 lg:max-h-screen lg:overflow-y-auto">
+      <div className="w-full lg:w-3/5 lg:ml-[40%] flex flex-col px-4 sm:px-6 lg:pr-16 lg:pl-12 py-4 sm:py-6 lg:py-12 space-y-6 sm:space-y-8 lg:space-y-12 lg:max-h-screen lg:overflow-y-auto">
         
         {/* About Section */}
         <div>
-          <h2 className="text-2xl font-semibold mb-6 text-gray-800">About</h2>
-          <div className="space-y-4 text-sm text-gray-700 leading-relaxed">
+          <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-gray-800">About</h2>
+          <div className="space-y-3 sm:space-y-4 text-xs sm:text-sm text-gray-700 leading-relaxed">
             <p>
               Yash is a distinguished expert in the Generative AI industry, known for his significant contributions to AI education and entrepreneurship. Based in Mumbai, he has profoundly influenced AI learning over the past four years, amassing an impressive online following with over <strong>120,000 students across all platforms</strong>, including <strong>90,000+ students on Udemy</strong> and more than <strong>11,000 YouTube subscribers</strong>.
             </p>
@@ -124,14 +124,14 @@ export default function Home() {
 
         {/* Products Built */}
         <div>
-          <h2 className="text-2xl font-semibold mb-6 text-gray-800">Products Built</h2>
+          <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-gray-800">Products Built</h2>
           <div className="grid grid-cols-1 gap-4">
             <a href="https://olly.social" target="_blank" rel="noopener noreferrer" 
-               className="group p-4 rounded-2xl bg-white/50 hover:bg-white/80 transition-all border border-gray-200 hover:shadow-md">
+               className="group p-3 sm:p-4 rounded-2xl bg-white/50 hover:bg-white/80 transition-all border border-gray-200 hover:shadow-md">
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="font-semibold text-lg group-hover:text-[#d97757] transition-colors">olly.social</h3>
-                  <p className="text-sm text-gray-600">AI-powered social media extension for enhanced productivity</p>
+                  <h3 className="font-semibold text-base sm:text-lg group-hover:text-[#d97757] transition-colors">olly.social</h3>
+                  <p className="text-xs sm:text-sm text-gray-600">AI-powered social media extension for enhanced productivity</p>
                 </div>
                 <div className="text-right text-xs text-gray-500">
                   <div>25K+ Users</div>
@@ -141,11 +141,11 @@ export default function Home() {
             </a>
             
             <a href="https://snapy.ai" target="_blank" rel="noopener noreferrer"
-               className="group p-4 rounded-2xl bg-white/50 hover:bg-white/80 transition-all border border-gray-200 hover:shadow-md">
+               className="group p-3 sm:p-4 rounded-2xl bg-white/50 hover:bg-white/80 transition-all border border-gray-200 hover:shadow-md">
               <div className="flex justify-between items-start">
                 <div>
-                  <h3 className="font-semibold text-lg group-hover:text-[#d97757] transition-colors">snapy.ai</h3>
-                  <p className="text-sm text-gray-600">AI-powered content creation and automation platform</p>
+                  <h3 className="font-semibold text-base sm:text-lg group-hover:text-[#d97757] transition-colors">snapy.ai</h3>
+                  <p className="text-xs sm:text-sm text-gray-600">AI-powered content creation and automation platform</p>
                 </div>
                 <div className="text-right text-xs text-gray-500">
                   <div>35K+ Users</div>

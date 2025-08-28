@@ -24,10 +24,10 @@ export default function BlogPage() {
     <div className="min-h-screen bg-background">
       <Navigation />
       
-      <main className="max-w-4xl mx-auto px-6 py-12">
+      <main className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-12">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">AI Insights & Tutorials</h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 mb-4">AI Insights & Tutorials</h1>
+          <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
             Practical insights on Generative AI, Machine Learning, and Product Development. 
             Learn from real-world applications and industry expertise.
           </p>
@@ -35,7 +35,7 @@ export default function BlogPage() {
 
         <div className="grid gap-8">
           {blogPosts.map((post) => (
-            <article key={post.id} className="bg-white rounded-2xl p-8 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+            <article key={post.id} className="bg-white rounded-2xl p-4 sm:p-6 lg:p-8 shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
               <div className="flex items-center gap-4 mb-4">
                 <span className="px-3 py-1 bg-[#d97757]/10 text-[#d97757] text-sm font-medium rounded-full">
                   {post.category}
@@ -45,7 +45,7 @@ export default function BlogPage() {
                 <span className="text-sm text-gray-500">{post.readTime}</span>
               </div>
               
-              <h2 className="text-2xl font-semibold text-gray-800 mb-3 hover:text-[#d97757] transition-colors cursor-pointer">
+              <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-3 hover:text-[#d97757] transition-colors cursor-pointer">
                 {post.title}
               </h2>
               
@@ -61,9 +61,9 @@ export default function BlogPage() {
         </div>
 
         {/* Coming Soon */}
-        <div className="text-center mt-12">
-          <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-200">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">More Insights Coming Soon</h3>
+        <div className="text-center mt-6 sm:mt-12">
+          <div className="bg-white rounded-2xl p-4 sm:p-6 lg:p-8 shadow-sm border border-gray-200">
+            <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">More Insights Coming Soon</h3>
             <p className="text-gray-600 mb-6">
               I regularly share insights on AI education, product development, and entrepreneurship. 
               Follow my journey and get notified of new posts.

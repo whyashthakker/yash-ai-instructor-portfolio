@@ -16,13 +16,13 @@ export default function Navigation() {
 
   return (
     <nav className="bg-white/80 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="flex justify-between items-center py-4">
-          <Link href="/" className="text-xl font-bold text-[#d97757]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <div className="flex justify-between items-center py-3 sm:py-4">
+          <Link href="/" className="text-lg sm:text-xl font-bold text-[#d97757]">
             Yash Thakker
           </Link>
           
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex space-x-6 lg:space-x-8">
             {navItems.map((item) => (
               <Link
                 key={item.href}
@@ -38,13 +38,11 @@ export default function Navigation() {
             ))}
           </div>
 
-          {/* Mobile menu button */}
-          <div className="md:hidden">
-            <button className="text-gray-600 hover:text-[#d97757]">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
+          {/* Mobile menu - simplified for now */}
+          <div className="md:hidden flex space-x-4">
+            <Link href="/contact" className="text-xs px-3 py-1 bg-[#d97757] text-white rounded-full font-medium">
+              Contact
+            </Link>
           </div>
         </div>
       </div>

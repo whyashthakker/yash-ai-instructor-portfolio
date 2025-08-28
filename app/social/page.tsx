@@ -82,20 +82,20 @@ export default function SocialPage() {
     <div className="min-h-screen bg-background">
       <Navigation />
       
-      <main className="max-w-6xl mx-auto px-6 py-12">
+      <main className="max-w-6xl mx-auto px-4 sm:px-6 py-6 sm:py-12">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">Social Channels & Community</h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 mb-4">Social Channels & Community</h1>
+          <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
             Connect with me across all platforms for AI insights, tutorials, industry updates, and behind-the-scenes content.
           </p>
         </div>
 
         {/* Social Media Channels */}
         <div className="mb-16">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-8 text-center">Social Media</h2>
-          <div className="grid md:grid-cols-2 gap-6">
+          <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-4 sm:mb-8 text-center">Social Media</h2>
+          <div className="grid md:grid-cols-2 gap-4 sm:gap-6">
             {socialChannels.map((channel, index) => (
-              <div key={index} className="bg-white rounded-2xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-all">
+              <div key={index} className="bg-white rounded-2xl p-4 sm:p-6 shadow-sm border border-gray-200 hover:shadow-md transition-all">
                 <div className="flex items-start gap-4">
                   <div className={`w-12 h-12 ${channel.color} text-white rounded-full flex items-center justify-center font-bold text-sm`}>
                     {channel.icon}
@@ -125,10 +125,10 @@ export default function SocialPage() {
 
         {/* Course Platforms */}
         <div className="mb-16">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-8 text-center">Learning Platforms</h2>
-          <div className="grid md:grid-cols-3 gap-6">
+          <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-4 sm:mb-8 text-center">Learning Platforms</h2>
+          <div className="grid md:grid-cols-3 gap-4 sm:gap-6">
             {courseChannels.map((channel, index) => (
-              <div key={index} className="bg-white rounded-2xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-all text-center">
+              <div key={index} className="bg-white rounded-2xl p-4 sm:p-6 shadow-sm border border-gray-200 hover:shadow-md transition-all text-center">
                 <div className={`w-16 h-16 ${channel.color} text-white rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-4`}>
                   {channel.platform.slice(0, 2)}
                 </div>
@@ -153,7 +153,7 @@ export default function SocialPage() {
         </div>
 
         {/* Content Calendar */}
-        <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-200 mb-12">
+        <div className="bg-white rounded-2xl p-4 sm:p-6 lg:p-8 shadow-sm border border-gray-200 mb-6 sm:mb-12">
           <h3 className="text-2xl font-semibold text-gray-800 mb-6 text-center">Content Schedule</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="text-center">
@@ -180,7 +180,7 @@ export default function SocialPage() {
         </div>
 
         {/* Community Guidelines */}
-        <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-200">
+        <div className="bg-white rounded-2xl p-4 sm:p-6 lg:p-8 shadow-sm border border-gray-200">
           <h3 className="text-2xl font-semibold text-gray-800 mb-6 text-center">Community Guidelines</h3>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
