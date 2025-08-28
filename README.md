@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio template designed specifically for AI instructors, educators, and tech professionals. Built with Next.js 15, Tailwind CSS, and TypeScript.
 
-**Live Demo:** [Yash Thakker's Portfolio](https://yashthakker.com) *(Example implementation)*
+**Live Demo:** [Yash Thakker's Portfolio](https://goyashy.com) *(Live website)*
 
 ## ✨ Features
 
@@ -200,7 +200,7 @@ The only requirement is to include the original copyright notice.
 Created amazing portfolios with this template? We'd love to feature them!
 
 ### Featured Examples
-- **[Yash Thakker](https://yashthakker.com)** - Original template creator *(AI Instructor)*
+- **[Yash Thakker](https://goyashy.com)** - Original template creator *(AI Instructor)*
 - *Your portfolio could be here!* - [Submit yours](https://github.com/yourusername/ai-instructor-portfolio/issues)
 
 ## 📞 Support & Community
@@ -267,6 +267,6 @@ Created amazing portfolios with this template? We'd love to feature them!
 
 [⭐ Star this repo](https://github.com/yourusername/ai-instructor-portfolio) • [🐛 Report Bug](https://github.com/yourusername/ai-instructor-portfolio/issues) • [✨ Request Feature](https://github.com/yourusername/ai-instructor-portfolio/discussions)
 
-*Made by [Yash Thakker](https://yashthakker.com) - AI Instructor & Product Leader*
+*Made by [Yash Thakker](https://goyashy.com) - AI Instructor & Product Leader*
 
 </div>

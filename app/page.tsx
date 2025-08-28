@@ -1,13 +1,17 @@
+import Navigation from './components/Navigation';
+
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col lg:flex-row bg-background text-foreground">
+    <div className="min-h-screen bg-background text-foreground">
+      <Navigation />
+      <div className="flex flex-col lg:flex-row">
       {/* Left Side - Profile */}
-      <div className="w-full lg:w-2/5 flex flex-col items-center justify-center p-6 lg:p-12 space-y-6 lg:space-y-8 lg:fixed lg:h-screen">
+      <div className="w-full lg:w-2/5 flex flex-col items-center justify-center p-4 lg:p-6 space-y-3 lg:space-y-4 lg:fixed lg:h-screen lg:pt-16">
         <div className="relative">
           <img 
             src="/yash.png" 
             alt="Yash Thakker - AI Instructor and Product Leader"
-            className="w-64 h-64 rounded-full object-cover shadow-xl"
+            className="w-48 h-48 lg:w-56 lg:h-56 rounded-full object-cover shadow-xl"
           />
           <div className="absolute -bottom-3 -right-3 bg-[#d97757] text-white px-4 py-2 rounded-full text-xs font-medium shadow-lg">
             120K+ Students
@@ -43,7 +47,7 @@ export default function Home() {
         </div>
 
         {/* Primary CTA - Contact */}
-        <div className="text-center space-y-4 w-full max-w-sm">
+        <div className="text-center space-y-3 w-full max-w-sm">
           <a href="mailto:yash@explainx.ai" 
              className="inline-flex items-center justify-center w-full px-6 py-4 bg-[#d97757] text-white rounded-xl hover:bg-[#c86844] transition-colors text-sm font-semibold shadow-lg focus:outline-none focus:ring-2 focus:ring-[#d97757] focus:ring-offset-2">
             <span className="w-5 h-5 mr-2 bg-white/20 rounded-full flex items-center justify-center">
@@ -55,8 +59,8 @@ export default function Home() {
         </div>
 
         {/* Course Platforms */}
-        <div className="text-center space-y-3 w-full max-w-sm">
-          <h4 className="text-sm font-semibold text-gray-700">Courses & Education</h4>
+        <div className="text-center space-y-2 w-full max-w-sm">
+          <h4 className="text-xs font-semibold text-gray-700">Courses & Education</h4>
           <div className="flex gap-2 justify-center">
             <a href="https://www.udemy.com/user/feelix-2" target="_blank" rel="noopener noreferrer"
                className="flex-1 min-w-0 px-3 py-2 text-xs border border-gray-300 text-gray-600 rounded-lg hover:border-[#d97757] hover:text-[#d97757] transition-colors text-center">
@@ -74,8 +78,8 @@ export default function Home() {
         </div>
 
         {/* Social Platforms */}
-        <div className="text-center space-y-3 w-full max-w-sm">
-          <h4 className="text-sm font-semibold text-gray-700">Social & Content</h4>
+        <div className="text-center space-y-2 w-full max-w-sm">
+          <h4 className="text-xs font-semibold text-gray-700">Social & Content</h4>
           <div className="flex gap-2 justify-center">
             <a href="https://www.youtube.com/@goyashy" target="_blank" rel="noopener noreferrer"
                className="flex-1 min-w-0 px-3 py-2 text-xs border border-gray-300 text-gray-600 rounded-lg hover:border-[#d97757] hover:text-[#d97757] transition-colors text-center">
@@ -199,7 +203,7 @@ export default function Home() {
           </div>
         </div>
 
-
+      </div>
       </div>
     </div>
   );
