@@ -11,6 +11,7 @@ export default function Navigation() {
     { href: '/about', label: 'About' },
     { href: '/blog', label: 'Blog' },
     { href: '/social', label: 'Social' },
+    { href: '/faq', label: 'FAQ' },
     { href: '/contact', label: 'Contact' },
   ];
 
