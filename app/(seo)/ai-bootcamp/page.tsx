@@ -20,7 +20,7 @@ export default function AIBootcampPage() {
             Intensive AI Bootcamp
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Transform your career in 4 weeks with hands-on AI training. Build real projects, master AI tools, and join 120K+ successful students.
+            Transform your career in 4 weeks with hands-on AI training. Build real projects, master AI tools, and join 160K+ successful students.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="mailto:yash@explainx.ai" 
@@ -80,7 +80,7 @@ export default function AIBootcampPage() {
                 <div className="w-12 h-12 bg-[#d97757] rounded-full flex items-center justify-center text-white font-bold">3</div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Industry Expert Instructor</h3>
-                  <p className="text-gray-600">Learn from Yash Thakker - 12+ years building AI products, 120K+ students taught, Fortune 500 experience.</p>
+                  <p className="text-gray-600">Learn from Yash Thakker - 12+ years building AI products, 160K+ students taught, Fortune 500 experience.</p>
                 </div>
               </div>
             </div>

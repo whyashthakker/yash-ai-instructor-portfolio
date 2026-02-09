@@ -14,7 +14,7 @@ export default function Home() {
             className="w-48 h-48 lg:w-56 lg:h-56 rounded-full object-cover shadow-xl"
           />
           <div className="absolute -bottom-3 -right-3 bg-[#d97757] text-white px-4 py-2 rounded-full text-xs font-medium shadow-lg">
-            120K+ Students
+            160K+ Students
           </div>
         </div>
         
@@ -22,7 +22,7 @@ export default function Home() {
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold">Yash Thakker</h1>
           <p className="text-gray-600 text-base sm:text-lg">AI Instructor & Product Leader</p>
           <p className="text-xs sm:text-sm text-gray-500 max-w-xs leading-relaxed px-2">
-            12+ years building AI products & teaching 120K+ students worldwide
+            12+ years building AI products & teaching 160K+ students worldwide
           </p>
         </div>
 
@@ -111,13 +111,13 @@ export default function Home() {
           <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-gray-800">About</h2>
           <div className="space-y-3 sm:space-y-4 text-xs sm:text-sm text-gray-700 leading-relaxed">
             <p>
-              Yash is a distinguished expert in the Generative AI industry, known for his significant contributions to AI education and entrepreneurship. Based in Mumbai, he has profoundly influenced AI learning over the past four years, amassing an impressive online following with over <strong>120,000 students across all platforms</strong>, including <strong>90,000+ students on Udemy</strong> and more than <strong>11,000 YouTube subscribers</strong>.
+              Yash is a distinguished expert in the Generative AI industry, known for his significant contributions to AI education and entrepreneurship. Based in Mumbai, he has profoundly influenced AI learning over the past four years, amassing an impressive online following with over <strong>160,000+ students across all platforms</strong>, including <strong>160,000+ students on Udemy</strong> and more than <strong>11,000 YouTube subscribers</strong>.
             </p>
             <p>
               His educational impact includes conducting live sessions on AI for enhanced productivity and collaborating with tech institutes to develop specialized AI courses. Yash's <strong>50+ AI courses</strong> focus on practical applications such as Content Automation, Content Creation, AI for Research, SEO, Product Management, AI for Leaders, and Prompt Engineering. His teaching extends beyond online platforms to include bootcamps, offline workshops, and corporate training sessions.
             </p>
             <p>
-              As the founder of <strong>AISOLO Technologies</strong>, Yash drives forward-looking projects like Olly.social, Snapy.ai, Explainx.ai, and Revns.com - all leveraging Generative AI to solve real-world use cases.
+              As the founder of <strong>AISOLO Technologies</strong>, Yash drives forward-looking projects like Infloq.com, Olly.social, and Explainx.ai - all leveraging Generative AI to solve real-world use cases.
             </p>
           </div>
         </div>
@@ -126,7 +126,20 @@ export default function Home() {
         <div>
           <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-gray-800">Products Built</h2>
           <div className="grid grid-cols-1 gap-4">
-            <a href="https://olly.social" target="_blank" rel="noopener noreferrer" 
+            <a href="/infloq"
+               className="group p-3 sm:p-4 rounded-2xl bg-white/50 hover:bg-white/80 transition-all border border-gray-200 hover:shadow-md">
+              <div className="flex justify-between items-start">
+                <div>
+                  <h3 className="font-semibold text-base sm:text-lg group-hover:text-[#d97757] transition-colors">infloq.com</h3>
+                  <p className="text-xs sm:text-sm text-gray-600">AI-powered influencer marketing platform for SMBs and startups</p>
+                </div>
+                <div className="text-right text-xs text-gray-500">
+                  <div>New Launch</div>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://olly.social" target="_blank" rel="noopener noreferrer"
                className="group p-3 sm:p-4 rounded-2xl bg-white/50 hover:bg-white/80 transition-all border border-gray-200 hover:shadow-md">
               <div className="flex justify-between items-start">
                 <div>
@@ -136,19 +149,6 @@ export default function Home() {
                 <div className="text-right text-xs text-gray-500">
                   <div>25K+ Users</div>
                   <div>5K+ Paid</div>
-                </div>
-              </div>
-            </a>
-            
-            <a href="https://snapy.ai" target="_blank" rel="noopener noreferrer"
-               className="group p-3 sm:p-4 rounded-2xl bg-white/50 hover:bg-white/80 transition-all border border-gray-200 hover:shadow-md">
-              <div className="flex justify-between items-start">
-                <div>
-                  <h3 className="font-semibold text-base sm:text-lg group-hover:text-[#d97757] transition-colors">snapy.ai</h3>
-                  <p className="text-xs sm:text-sm text-gray-600">AI-powered content creation and automation platform</p>
-                </div>
-                <div className="text-right text-xs text-gray-500">
-                  <div>35K+ Users</div>
                 </div>
               </div>
             </a>
@@ -174,15 +174,15 @@ export default function Home() {
           <h2 className="text-2xl font-semibold mb-6 text-gray-800">Teaching & Education</h2>
           <div className="space-y-4">
             <p className="text-sm text-gray-700 leading-relaxed">
-              Created <strong>50+ public courses</strong> with over <strong>120,000 students</strong> across multiple platforms including bootcamps, workshops, and online courses. Specializes in AI productivity solutions, delivering live sessions and collaborating with institutes to develop AI-focused courses.
+              Created <strong>50+ public courses</strong> with over <strong>160,000 students</strong> across multiple platforms including bootcamps, workshops, and online courses. Specializes in AI productivity solutions, delivering live sessions and collaborating with institutes to develop AI-focused courses.
             </p>
             <div className="space-y-2 text-sm text-gray-600">
-              <div>📚 <strong>Udemy:</strong> 90K+ students across 50+ AI courses</div>
+              <div>📚 <strong>Udemy:</strong> 160K+ students across 50+ AI courses</div>
               <div>🎓 <strong>Coursera:</strong> University-quality AI education</div>
               <div>💻 <strong>Codecademy:</strong> Interactive AI bootcamps</div>
               <div>📺 <strong>YouTube:</strong> 11K+ subscribers, AI tutorials</div>
-              <div>🏢 <strong>Bootcamps & Workshops:</strong> Corporate training & offline sessions</div>
-              <div>📊 <strong>Total Reach:</strong> 120K+ students across all platforms</div>
+              <div>🏢 <strong>Bootcamps:</strong> AI Maker, Claude for Work (3-week program)</div>
+              <div>📊 <strong>Total Reach:</strong> 160K+ students across all platforms</div>
             </div>
           </div>
         </div>

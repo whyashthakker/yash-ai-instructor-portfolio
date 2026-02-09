@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'AI Courses Online - Yash Thakker | Complete Online AI Training',
-  description: 'Best online AI courses by Yash Thakker. Learn AI, Machine Learning, ChatGPT, and automation. 50+ courses, 120K+ students, lifetime access.',
+  description: 'Best online AI courses by Yash Thakker. Learn AI, Machine Learning, ChatGPT, and automation. 50+ courses, 160K+ students, lifetime access.',
   keywords: 'AI courses online, online AI training, artificial intelligence courses, machine learning online course, AI education online',
   robots: 'index, follow',
 };
@@ -36,7 +36,7 @@ export default function AICoursesOnlinePage() {
             <div className="text-gray-700 font-medium">Online Courses</div>
           </div>
           <div className="text-center bg-green-50 p-6 rounded-xl border-2 border-green-200">
-            <div className="text-3xl font-bold text-green-600 mb-2">120K+</div>
+            <div className="text-3xl font-bold text-green-600 mb-2">160K+</div>
             <div className="text-gray-700 font-medium">Students Enrolled</div>
           </div>
           <div className="text-center bg-purple-50 p-6 rounded-xl border-2 border-purple-200">
@@ -110,7 +110,7 @@ export default function AICoursesOnlinePage() {
               <div className="bg-white/10 p-6 rounded-xl backdrop-blur">
                 <div className="text-3xl mb-3">🎓</div>
                 <h3 className="font-bold mb-2">Expert Instructor</h3>
-                <p className="text-sm">Learn from Yash Thakker - 12+ years experience, 120K+ students taught</p>
+                <p className="text-sm">Learn from Yash Thakker - 12+ years experience, 160K+ students taught</p>
               </div>
               <div className="bg-white/10 p-6 rounded-xl backdrop-blur">
                 <div className="text-3xl mb-3">⏰</div>
@@ -220,7 +220,7 @@ export default function AICoursesOnlinePage() {
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-8 text-gray-900">Start Your Online AI Journey</h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Join 120,000+ students learning AI online. Get lifetime access, learn at your pace, and transform your career.
+            Join 160,000+ students learning AI online. Get lifetime access, learn at your pace, and transform your career.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://www.udemy.com/user/feelix-2" target="_blank" rel="noopener noreferrer"

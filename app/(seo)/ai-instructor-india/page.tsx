@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'AI Instructor India - Yash Thakker | Top AI Training in Mumbai & India',
-  description: 'Leading AI instructor in India. Expert AI training from Mumbai-based Yash Thakker. 120K+ students trained in Artificial Intelligence across India.',
+  description: 'Leading AI instructor in India. Expert AI training from Mumbai-based Yash Thakker. 160K+ students trained in Artificial Intelligence across India.',
   keywords: 'AI instructor India, AI training Mumbai, artificial intelligence course India, AI expert India, machine learning instructor India',
   robots: 'index, follow',
 };
@@ -17,7 +17,7 @@ export default function AIInstructorIndiaPage() {
             Top AI Instructor in India
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Leading AI education from Mumbai to the world - Trusted by 120,000+ students across India and globally
+            Leading AI education from Mumbai to the world - Trusted by 160,000+ students across India and globally
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://www.udemy.com/user/feelix-2" target="_blank" rel="noopener noreferrer"
@@ -92,7 +92,7 @@ export default function AIInstructorIndiaPage() {
             <h2 className="text-3xl font-bold mb-6">Made in India, Recognized Globally</h2>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="text-center">
-                <div className="text-3xl font-bold">120K+</div>
+                <div className="text-3xl font-bold">160K+</div>
                 <div>Indian Students</div>
               </div>
               <div className="text-center">

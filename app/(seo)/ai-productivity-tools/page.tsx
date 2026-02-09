@@ -158,7 +158,7 @@ export default function AIProductivityToolsPage() {
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">My Personal AI Productivity Stack</h2>
           <div className="bg-gray-50 p-8 rounded-2xl">
-            <p className="text-center text-gray-700 mb-8">The exact AI tools and workflows I use to manage 120K+ students, build products, and create content</p>
+            <p className="text-center text-gray-700 mb-8">The exact AI tools and workflows I use to manage 160K+ students, build products, and create content</p>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-[#d97757]">Daily Workflow Tools</h3>

@@ -55,7 +55,7 @@ export default function SocialPage() {
     {
       platform: 'Udemy',
       url: 'https://www.udemy.com/user/feelix-2',
-      students: '90K+ Students',
+      students: '160K+ Students',
       courses: '50+ Courses',
       description: 'Comprehensive AI courses covering Generative AI, Machine Learning, and practical applications.',
       color: 'bg-purple-600'

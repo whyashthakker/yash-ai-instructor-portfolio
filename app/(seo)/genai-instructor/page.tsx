@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Generative AI Instructor - Yash Thakker | GPT, LLM & AI Training Expert',
-  description: 'Master Generative AI with expert instruction from Yash Thakker. Learn ChatGPT, GPT-4, Claude, and LLM applications. 120K+ students trained worldwide.',
+  description: 'Master Generative AI with expert instruction from Yash Thakker. Learn ChatGPT, GPT-4, Claude, and LLM applications. 160K+ students trained worldwide.',
   keywords: 'generative AI instructor, GPT training, LLM instructor, ChatGPT course, generative AI expert, AI teacher, generative AI education',
   robots: 'index, follow',
 };
@@ -186,7 +186,7 @@ export default function GenAIInstructorPage() {
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-8 text-gray-900">Start Your GenAI Journey Today</h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Join 120,000+ students who have mastered Generative AI with our comprehensive training programs.
+            Join 160,000+ students who have mastered Generative AI with our comprehensive training programs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://www.udemy.com/user/feelix-2" target="_blank" rel="noopener noreferrer"

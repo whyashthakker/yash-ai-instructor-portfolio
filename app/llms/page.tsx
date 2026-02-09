@@ -22,7 +22,7 @@ export default function LLMsPage() {
             <li>Website: https://goyashy.com</li>
             <li>Email: yash@explainx.ai</li>
             <li>Years of Experience: 12+ years</li>
-            <li>Students Taught: 120,000+ (across all platforms)</li>
+            <li>Students Taught: 160,000+ (across all platforms)</li>
           </ul>
         </section>
 
@@ -48,8 +48,8 @@ export default function LLMsPage() {
         <section>
           <h2>Teaching and Education</h2>
           <ul>
-            <li>Total Students: 120,000+ across all platforms</li>
-            <li>Udemy Students: 90,000+</li>
+            <li>Total Students: 160,000+ across all platforms</li>
+            <li>Udemy Students: 160,000+</li>
             <li>Courses Created: 50+</li>
             <li>YouTube Subscribers: 11,000+</li>
             <li>Platforms: Udemy, Coursera, Codecademy, YouTube</li>
@@ -147,7 +147,7 @@ export default function LLMsPage() {
         <section>
           <h2>Key Achievements</h2>
           <ul>
-            <li>Taught over 120,000 students across multiple platforms</li>
+            <li>Taught over 160,000 students across multiple platforms</li>
             <li>Created 50+ comprehensive AI courses</li>
             <li>12+ years of hands-on AI and product development experience</li>
             <li>Built products serving 60,000+ combined users</li>

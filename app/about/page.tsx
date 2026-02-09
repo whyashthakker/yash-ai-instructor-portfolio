@@ -3,7 +3,7 @@ import Navigation from '../components/Navigation';
 
 export const metadata: Metadata = {
   title: 'About - Yash Thakker | AI Instructor & Product Leader',
-  description: 'Learn about Yash Thakker\'s journey in AI education and product development. 12+ years experience, 120K+ students taught, founder of AISOLO Technologies.',
+  description: 'Learn about Yash Thakker\'s journey in AI education and product development. 12+ years experience, 160K+ students taught, founder of AISOLO Technologies.',
   keywords: ['Yash Thakker bio', 'AI instructor background', 'product leader experience', 'AISOLO Technologies founder'],
 };
 
@@ -41,7 +41,7 @@ export default function AboutPage() {
               to making artificial intelligence accessible and transformative for individuals and organizations worldwide.
             </p>
             <p>
-              Today, having taught over <strong>120,000 students</strong> across multiple platforms and built products serving 
+              Today, having taught over <strong>160,000 students</strong> across multiple platforms and built products serving 
               <strong>60,000+ users</strong>, I continue bridging the gap between cutting-edge AI research and practical applications 
               that drive real business value.
             </p>
@@ -122,9 +122,9 @@ export default function AboutPage() {
             </div>
             
             <div className="border-l-4 border-gray-300 pl-4">
-              <h4 className="font-semibold text-gray-800">Maker - Olly.social & Snapy.ai</h4>
+              <h4 className="font-semibold text-gray-800">Maker - Infloq.com & Olly.social</h4>
               <p className="text-gray-600">2023 - Present</p>
-              <p className="text-gray-700 mt-2">Social media growth extension (25K+ users) and AI video editing platform (35K+ users).</p>
+              <p className="text-gray-700 mt-2">AI-powered influencer marketing platform for SMBs and social media growth extension (25K+ users).</p>
             </div>
 
             <div className="border-l-4 border-gray-300 pl-4">
@@ -170,7 +170,7 @@ export default function AboutPage() {
           <h3 className="text-2xl font-semibold text-gray-800 mb-6">Impact</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             <div>
-              <div className="text-2xl font-bold text-[#d97757]">120K+</div>
+              <div className="text-2xl font-bold text-[#d97757]">160K+</div>
               <div className="text-xs text-gray-600">Students Taught</div>
             </div>
             <div>

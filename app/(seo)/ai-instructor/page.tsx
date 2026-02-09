@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'AI Instructor - Yash Thakker | Expert AI Training & Education',
-  description: 'Learn AI from industry expert Yash Thakker. 120K+ students trained in Generative AI, Machine Learning, and AI applications. Join our comprehensive AI courses.',
+  description: 'Learn AI from industry expert Yash Thakker. 160K+ students trained in Generative AI, Machine Learning, and AI applications. Join our comprehensive AI courses.',
   keywords: 'AI instructor, artificial intelligence training, machine learning courses, AI education, generative AI instructor, AI teacher',
   robots: 'index, follow',
 };
@@ -17,7 +17,7 @@ export default function AIInstructorPage() {
             Leading AI Instructor
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Transform your career with expert AI training from Yash Thakker - trusted by 120,000+ students worldwide
+            Transform your career with expert AI training from Yash Thakker - trusted by 160,000+ students worldwide
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://www.udemy.com/user/feelix-2" target="_blank" rel="noopener noreferrer"
@@ -39,7 +39,7 @@ export default function AIInstructorPage() {
                 <div className="w-8 h-8 bg-[#d97757] rounded-full flex items-center justify-center text-white font-bold">1</div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Proven Track Record</h3>
-                  <p className="text-gray-600">120,000+ students successfully trained across multiple platforms with 90,000+ students on Udemy alone.</p>
+                  <p className="text-gray-600">160,000+ students successfully trained across multiple platforms with 160,000+ students on Udemy alone.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
@@ -86,7 +86,7 @@ export default function AIInstructorPage() {
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Course Statistics</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-[#d97757] mb-2">120K+</div>
+              <div className="text-4xl font-bold text-[#d97757] mb-2">160K+</div>
               <div className="text-gray-600">Students Trained</div>
             </div>
             <div className="text-center">

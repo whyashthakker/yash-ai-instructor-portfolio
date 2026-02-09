@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Generative AI Courses - Yash Thakker | Complete GenAI Training Programs',
-  description: 'Comprehensive Generative AI courses by Yash Thakker. Learn ChatGPT, GPT-4, LLMs, and AI applications. 50+ courses, 120K+ students on Udemy.',
+  description: 'Comprehensive Generative AI courses by Yash Thakker. Learn ChatGPT, GPT-4, LLMs, and AI applications. 50+ courses, 160K+ students on Udemy.',
   keywords: 'generative AI courses, ChatGPT course, GPT-4 training, LLM courses, AI course online, generative AI certification, Udemy AI courses',
   robots: 'index, follow',
 };
@@ -37,7 +37,7 @@ export default function GenAICoursesPage() {
             <div className="text-gray-600">GenAI Courses</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-[#d97757] mb-2">120K+</div>
+            <div className="text-4xl font-bold text-[#d97757] mb-2">160K+</div>
             <div className="text-gray-600">Students Enrolled</div>
           </div>
           <div className="text-center">
@@ -226,7 +226,7 @@ export default function GenAICoursesPage() {
             <div className="text-center p-6 bg-purple-50 rounded-xl">
               <div className="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold text-2xl mx-auto mb-4">U</div>
               <h3 className="text-xl font-semibold mb-3">Udemy</h3>
-              <p className="text-gray-600 mb-4">90,000+ students across 50+ comprehensive AI courses with lifetime access.</p>
+              <p className="text-gray-600 mb-4">160,000+ students across 50+ comprehensive AI courses with lifetime access.</p>
               <a href="https://www.udemy.com/user/feelix-2" target="_blank" rel="noopener noreferrer"
                  className="inline-block bg-purple-500 text-white px-6 py-3 rounded-lg hover:bg-purple-600 transition-colors">
                 Browse Udemy Courses
@@ -258,7 +258,7 @@ export default function GenAICoursesPage() {
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-8 text-gray-900">Start Your GenAI Learning Journey</h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Choose from 50+ expertly designed courses and join 120,000+ students mastering Generative AI.
+            Choose from 50+ expertly designed courses and join 160,000+ students mastering Generative AI.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://www.udemy.com/user/feelix-2" target="_blank" rel="noopener noreferrer"

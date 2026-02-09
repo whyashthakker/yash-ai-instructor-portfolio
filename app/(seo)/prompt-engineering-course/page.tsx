@@ -258,7 +258,7 @@ export default function PromptEngineeringCoursePage() {
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-8 text-gray-900">Start Your Prompt Engineering Journey</h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Master the most valuable skill in the AI era. Join 120,000+ students who have transformed their productivity.
+            Master the most valuable skill in the AI era. Join 160,000+ students who have transformed their productivity.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://www.udemy.com/user/feelix-2" target="_blank" rel="noopener noreferrer"
