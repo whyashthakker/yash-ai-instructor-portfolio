@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@next/third-parties": "^16.2.6",
     "next": "^15.5.12",
     "posthog-js": "^1.266.0",
     "posthog-node": "^5.8.4",
