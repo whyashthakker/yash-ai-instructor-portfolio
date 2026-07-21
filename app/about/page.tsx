@@ -3,7 +3,7 @@ import Navigation from '../components/Navigation';
 
 export const metadata: Metadata = {
   title: 'About - Yash Thakker | AI Instructor & Product Leader',
-  description: 'Learn about Yash Thakker\'s journey in AI education and product development. 12+ years experience, 160K+ students taught, founder of AISOLO Technologies.',
+  description: 'Learn about Yash Thakker\'s journey in AI education and product development. 12+ years experience, 350K+ students taught, founder of AISOLO Technologies.',
   keywords: ['Yash Thakker bio', 'AI instructor background', 'product leader experience', 'AISOLO Technologies founder'],
 };
 
@@ -41,7 +41,7 @@ export default function AboutPage() {
               to making artificial intelligence accessible and transformative for individuals and organizations worldwide.
             </p>
             <p>
-              Today, having taught over <strong>160,000 students</strong> across multiple platforms and built products serving 
+              Today, having taught over <strong>350,000 students</strong> across multiple platforms and built products serving 
               <strong>60,000+ users</strong>, I continue bridging the gap between cutting-edge AI research and practical applications 
               that drive real business value.
             </p>
@@ -170,7 +170,7 @@ export default function AboutPage() {
           <h3 className="text-2xl font-semibold text-gray-800 mb-6">Impact</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             <div>
-              <div className="text-2xl font-bold text-[#d97757]">160K+</div>
+              <div className="text-2xl font-bold text-[#d97757]">350K+</div>
               <div className="text-xs text-gray-600">Students Taught</div>
             </div>
             <div>

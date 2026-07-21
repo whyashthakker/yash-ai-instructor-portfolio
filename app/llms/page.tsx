@@ -22,7 +22,7 @@ export default function LLMsPage() {
             <li>Website: https://goyashy.com</li>
             <li>Email: yash@explainx.ai</li>
             <li>Years of Experience: 12+ years</li>
-            <li>Students Taught: 160,000+ (across all platforms)</li>
+            <li>Students Taught: 350,000+ (across all platforms)</li>
           </ul>
         </section>
 
@@ -48,8 +48,8 @@ export default function LLMsPage() {
         <section>
           <h2>Teaching and Education</h2>
           <ul>
-            <li>Total Students: 160,000+ across all platforms</li>
-            <li>Udemy Students: 160,000+</li>
+            <li>Total Students: 350,000+ across all platforms</li>
+            <li>Udemy Students: 350,000+</li>
             <li>Courses Created: 50+</li>
             <li>YouTube Subscribers: 11,000+</li>
             <li>Platforms: Udemy, Coursera, Codecademy, YouTube</li>
@@ -78,6 +78,8 @@ export default function LLMsPage() {
             <li>AISOLO Technologies: AI-first product company (Founder)</li>
             <li>olly.social: AI-powered social media extension (25,000+ users, 5,000+ paid users)</li>
             <li>snapy.ai: AI-powered content creation platform (35,000+ users)</li>
+            <li>bunpav.com: Browser-based generator for 3D models, game audio, sprite sheets, and playable prototypes for indie devs and game jams</li>
+            <li>bgblur.com: AI-powered video editing tool that automatically blurs faces, license plates, and backgrounds</li>
           </ul>
         </section>
 
@@ -147,7 +149,7 @@ export default function LLMsPage() {
         <section>
           <h2>Key Achievements</h2>
           <ul>
-            <li>Taught over 160,000 students across multiple platforms</li>
+            <li>Taught over 350,000 students across multiple platforms</li>
             <li>Created 50+ comprehensive AI courses</li>
             <li>12+ years of hands-on AI and product development experience</li>
             <li>Built products serving 60,000+ combined users</li>
@@ -195,6 +197,8 @@ export default function LLMsPage() {
             <li>AISOLO Technologies</li>
             <li>olly.social</li>
             <li>snapy.ai</li>
+            <li>bunpav.com</li>
+            <li>bgblur.com</li>
           </ul>
         </section>
 

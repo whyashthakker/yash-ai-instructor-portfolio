@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Navigation from '../components/Navigation';
 
 export const metadata: Metadata = {
-  title: 'FAQ - Yash Thakker | AI Instructor & Product Leader | 250K+ Students',
+  title: 'FAQ - Yash Thakker | AI Instructor & Product Leader | 350K+ Students',
   description: 'Frequently asked questions about AI instruction, consulting, and product development by Yash Thakker. Learn about 50+ AI courses, corporate training, consulting services, and AI products (olly.social, explainx.ai, infloq.com).',
   keywords: ['AI instructor FAQ', 'AI consulting questions', 'AI course FAQ', 'Yash Thakker services', 'AI training information', 'Generative AI courses', 'corporate AI training', 'AI product development', 'Udemy AI instructor', 'Coursera AI courses'],
 };
@@ -17,7 +17,7 @@ export default function FAQPage() {
         "name": "What types of AI courses does Yash Thakker offer?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yash Thakker offers 50+ comprehensive AI courses including Generative AI, Large Language Models (LLMs), ChatGPT, Claude AI, Prompt Engineering, Machine Learning, AI for Business, and AI Productivity. Courses are available on Udemy (250,000+ students), Coursera, Codecademy, and through direct corporate training programs. All courses focus on practical applications with hands-on projects."
+          "text": "Yash Thakker offers 50+ comprehensive AI courses including Generative AI, Large Language Models (LLMs), ChatGPT, Claude AI, Prompt Engineering, Machine Learning, AI for Business, and AI Productivity. Courses are available on Udemy (350,000+ students), Coursera, Codecademy, and through direct corporate training programs. All courses focus on practical applications with hands-on projects."
         }
       },
       {
@@ -25,7 +25,7 @@ export default function FAQPage() {
         "name": "Are Yash Thakker's AI courses suitable for beginners?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, Yash Thakker's courses cater to all skill levels. Beginners can start with foundational courses covering AI basics, while advanced practitioners benefit from specialized courses in cutting-edge technologies. With an average 4.5+ rating across platforms and 250,000+ students taught, the courses are designed for progressive learning from beginner to expert level."
+          "text": "Yes, Yash Thakker's courses cater to all skill levels. Beginners can start with foundational courses covering AI basics, while advanced practitioners benefit from specialized courses in cutting-edge technologies. With an average 4.5+ rating across platforms and 350,000+ students taught, the courses are designed for progressive learning from beginner to expert level."
         }
       },
       {
@@ -49,7 +49,7 @@ export default function FAQPage() {
         "name": "What AI products has Yash Thakker built?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yash Thakker has built three successful AI products under AISOLO Technologies: 1) infloq.com - AI-powered influencer marketing platform (launched 2025), 2) olly.social - social media productivity extension with 25,000+ active users and 5,000+ paid subscribers (20% conversion rate), and 3) explainx.ai - enterprise-grade AI model explainability platform serving 100,000+ monthly users."
+          "text": "Yash Thakker has built five successful AI products under AISOLO Technologies: 1) infloq.com - AI-powered influencer marketing platform (launched 2025), 2) olly.social - social media productivity extension with 25,000+ active users and 5,000+ paid subscribers (20% conversion rate), 3) explainx.ai - enterprise-grade AI model explainability platform serving 100,000+ monthly users, 4) bunpav.com - a browser-based generator for 3D models, game audio, and sprite sheets for indie devs and game jams, and 5) bgblur.com - an AI-powered video editing tool that automatically blurs faces, license plates, and backgrounds."
         }
       },
       {
@@ -57,7 +57,7 @@ export default function FAQPage() {
         "name": "How many students has Yash Thakker taught?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yash Thakker has taught over 250,000 students worldwide (as of May 2026) across Udemy, Coursera, Codecademy, YouTube, and bootcamp programs. His students span 150+ countries across 6 continents, with over 1 million hours of AI education delivered. According to student surveys, 80%+ report implementing AI in their work within 30 days of completing his courses."
+          "text": "Yash Thakker has taught over 350,000 students worldwide (as of May 2026) across Udemy, Coursera, Codecademy, YouTube, and bootcamp programs. His students span 150+ countries across 6 continents, with over 1 million hours of AI education delivered. According to student surveys, 80%+ report implementing AI in their work within 30 days of completing his courses."
         }
       },
       {
@@ -107,14 +107,14 @@ export default function FAQPage() {
               <div className="border-b border-gray-100 pb-6">
                 <h3 className="text-lg font-semibold text-[#d97757] mb-2">What types of AI courses do you offer?</h3>
                 <p className="text-gray-700">
-                  I offer <strong>50+ comprehensive AI courses</strong> including Generative AI, Large Language Models (LLMs), ChatGPT, Claude AI, Prompt Engineering, Machine Learning, AI for Business, and AI Productivity. Courses are available on <strong>Udemy (250,000+ students)</strong>, Coursera, Codecademy, and through direct corporate training programs. All courses focus on practical applications with hands-on projects and maintain an average <strong>4.5+ rating</strong>.
+                  I offer <strong>50+ comprehensive AI courses</strong> including Generative AI, Large Language Models (LLMs), ChatGPT, Claude AI, Prompt Engineering, Machine Learning, AI for Business, and AI Productivity. Courses are available on <strong>Udemy (350,000+ students)</strong>, Coursera, Codecademy, and through direct corporate training programs. All courses focus on practical applications with hands-on projects and maintain an average <strong>4.5+ rating</strong>.
                 </p>
               </div>
 
               <div className="border-b border-gray-100 pb-6">
                 <h3 className="text-lg font-semibold text-[#d97757] mb-2">Are your courses suitable for beginners?</h3>
                 <p className="text-gray-700">
-                  Absolutely! My courses cater to all skill levels, from complete beginners to advanced AI practitioners. With <strong>250,000+ students taught worldwide</strong>, I've developed a proven methodology for progressive learning. Beginners start with foundational courses covering AI basics, while advanced practitioners benefit from specialized courses in cutting-edge technologies. According to student data, <strong>80%+ implement AI in their work within 30 days</strong> of completing my courses.
+                  Absolutely! My courses cater to all skill levels, from complete beginners to advanced AI practitioners. With <strong>350,000+ students taught worldwide</strong>, I've developed a proven methodology for progressive learning. Beginners start with foundational courses covering AI basics, while advanced practitioners benefit from specialized courses in cutting-edge technologies. According to student data, <strong>80%+ implement AI in their work within 30 days</strong> of completing my courses.
                 </p>
               </div>
 
@@ -148,7 +148,7 @@ export default function FAQPage() {
               <div className="pb-6">
                 <h3 className="text-lg font-semibold text-[#d97757] mb-2">Do you work with startups?</h3>
                 <p className="text-gray-700">
-                  Yes! As the founder of <strong>AISOLO Technologies</strong> (established 2020), I have extensive experience working with startups to implement AI solutions and develop AI-powered products. I've successfully launched <strong>three AI products</strong> (infloq.com, olly.social, explainx.ai) and understand the unique challenges early-stage companies face. I offer flexible engagement models including fractional AI leadership, product development consultation, and technical architecture guidance tailored to startup budgets and timelines.
+                  Yes! As the founder of <strong>AISOLO Technologies</strong> (established 2020), I have extensive experience working with startups to implement AI solutions and develop AI-powered products. I've successfully launched <strong>five AI products</strong> (infloq.com, olly.social, explainx.ai, bunpav.com, bgblur.com) and understand the unique challenges early-stage companies face. I offer flexible engagement models including fractional AI leadership, product development consultation, and technical architecture guidance tailored to startup budgets and timelines.
                 </p>
               </div>
             </div>
@@ -161,10 +161,12 @@ export default function FAQPage() {
               <div className="border-b border-gray-100 pb-6">
                 <h3 className="text-lg font-semibold text-[#d97757] mb-2">What products have you built?</h3>
                 <p className="text-gray-700">
-                  I've built three successful AI products under <strong>AISOLO Technologies</strong>:
+                  I've built five successful AI products under <strong>AISOLO Technologies</strong>:
                   <strong>(1) infloq.com</strong> - AI-powered influencer marketing platform (launched 2025) for SMBs and startups,
-                  <strong>(2) olly.social</strong> - social media productivity extension with <strong>25,000+ active users</strong> and <strong>5,000+ paid subscribers</strong> (20% conversion rate), and
-                  <strong>(3) explainx.ai</strong> - enterprise-grade AI model explainability platform serving <strong>100,000+ monthly users</strong>. All products leverage Generative AI, LLMs, and modern ML techniques to solve real-world business challenges.
+                  <strong>(2) olly.social</strong> - social media productivity extension with <strong>25,000+ active users</strong> and <strong>5,000+ paid subscribers</strong> (20% conversion rate),
+                  <strong>(3) explainx.ai</strong> - enterprise-grade AI model explainability platform serving <strong>100,000+ monthly users</strong>,
+                  <strong>(4) bunpav.com</strong> - a browser-based generator for 3D models, game audio, and sprite sheets for indie devs and game jams, and
+                  <strong>(5) bgblur.com</strong> - an AI-powered video editing tool that automatically blurs faces, license plates, and backgrounds. All products leverage Generative AI, LLMs, and modern ML techniques to solve real-world business challenges.
                 </p>
               </div>
 

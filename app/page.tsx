@@ -8,7 +8,7 @@ export default function Home() {
     "url": "https://goyashy.com",
     "image": "https://goyashy.com/yash.png",
     "jobTitle": "AI Instructor & Product Leader",
-    "description": "Leading AI Instructor and Product Leader with 12+ years experience. Taught 250,000+ students worldwide across Udemy, Coursera, and Codecademy.",
+    "description": "Leading AI Instructor and Product Leader with 12+ years experience. Taught 350,000+ students worldwide across Udemy, Coursera, and Codecademy.",
     "alumniOf": {
       "@type": "EducationalOrganization",
       "name": "SIMSREE"
@@ -60,6 +60,18 @@ export default function Home() {
         "name": "infloq.com",
         "description": "AI-powered influencer marketing platform for SMBs and startups",
         "url": "https://infloq.com"
+      },
+      {
+        "@type": "Product",
+        "name": "bunpav.com",
+        "description": "Browser-based generator for 3D models, game audio, sprite sheets, and playable prototypes for indie devs and game jams",
+        "url": "https://bunpav.com"
+      },
+      {
+        "@type": "Product",
+        "name": "bgblur.com",
+        "description": "AI-powered video editing tool that automatically blurs faces, license plates, and backgrounds in the browser",
+        "url": "https://bgblur.com"
       }
     ]
   };
@@ -70,7 +82,7 @@ export default function Home() {
     "name": "AISOLO Technologies",
     "url": "https://goyashy.com",
     "logo": "https://goyashy.com/yash.png",
-    "description": "AI innovation company founded by Yash Thakker, building products like infloq.com, olly.social, and explainx.ai",
+    "description": "AI innovation company founded by Yash Thakker, building products like infloq.com, olly.social, explainx.ai, bunpav.com, and bgblur.com",
     "founder": {
       "@type": "Person",
       "name": "Yash Thakker"
@@ -90,7 +102,7 @@ export default function Home() {
         "name": "Who is Yash Thakker?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yash Thakker is a leading AI Instructor and Product Leader with 12+ years of experience. He has taught over 250,000 students worldwide across platforms like Udemy, Coursera, and Codecademy. He is the founder of AISOLO Technologies and has built successful AI products including olly.social (25K+ users), explainx.ai (100K+ users/month), and infloq.com."
+          "text": "Yash Thakker is a leading AI Instructor and Product Leader with 12+ years of experience. He has taught over 350,000 students worldwide across platforms like Udemy, Coursera, and Codecademy. He is the founder of AISOLO Technologies and has built successful AI products including olly.social (25K+ users), explainx.ai (100K+ users/month), and infloq.com."
         }
       },
       {
@@ -98,7 +110,7 @@ export default function Home() {
         "name": "What products has Yash Thakker built?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yash Thakker has built three major AI-powered products: 1) infloq.com - an AI-powered influencer marketing platform for SMBs and startups, 2) olly.social - an AI-powered social media extension with 25,000+ users and 5,000+ paid customers, and 3) explainx.ai - an AI model explainability and monitoring platform with 100,000+ monthly users."
+          "text": "Yash Thakker has built five AI-powered products: 1) infloq.com - an AI-powered influencer marketing platform for SMBs and startups, 2) olly.social - an AI-powered social media extension with 25,000+ users and 5,000+ paid customers, 3) explainx.ai - an AI model explainability and monitoring platform with 100,000+ monthly users, 4) bunpav.com - a browser-based generator for 3D models, game audio, and sprite sheets for indie devs and game jams, and 5) bgblur.com - an AI-powered video editing tool that automatically blurs faces, license plates, and backgrounds."
         }
       },
       {
@@ -106,7 +118,7 @@ export default function Home() {
         "name": "How many students has Yash Thakker taught?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yash Thakker has taught over 250,000 students worldwide across multiple platforms including Udemy (250K+ students), Coursera, and Codecademy. He has created 50+ public courses on AI, Generative AI, Machine Learning, and related topics, and also conducts bootcamps and workshops."
+          "text": "Yash Thakker has taught over 350,000 students worldwide across multiple platforms including Udemy (350K+ students), Coursera, and Codecademy. He has created 50+ public courses on AI, Generative AI, Machine Learning, and related topics, and also conducts bootcamps and workshops."
         }
       },
       {
@@ -137,7 +149,7 @@ export default function Home() {
       />
 
       {/* Hidden H1 for SEO */}
-      <h1 className="sr-only">Yash Thakker - AI Instructor & Product Leader | 250K+ Students Taught Worldwide</h1>
+      <h1 className="sr-only">Yash Thakker - AI Instructor & Product Leader | 350K+ Students Taught Worldwide</h1>
 
       <Navigation />
       <div className="flex flex-col lg:flex-row">
@@ -150,7 +162,7 @@ export default function Home() {
             className="w-48 h-48 lg:w-56 lg:h-56 rounded-full object-cover shadow-xl"
           />
           <div className="absolute -bottom-3 -right-3 bg-[#d97757] text-white px-4 py-2 rounded-full text-xs font-medium shadow-lg">
-            250K+ Students
+            350K+ Students
           </div>
         </div>
         
@@ -158,7 +170,7 @@ export default function Home() {
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold">Yash Thakker</h1>
           <p className="text-gray-600 text-base sm:text-lg">AI Instructor & Product Leader</p>
           <p className="text-xs sm:text-sm text-gray-500 max-w-xs leading-relaxed px-2">
-            12+ years building AI products & teaching 250K+ students worldwide
+            12+ years building AI products & teaching 350K+ students worldwide
           </p>
         </div>
 
@@ -247,13 +259,13 @@ export default function Home() {
           <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-gray-800">About Yash Thakker</h2>
           <div className="space-y-3 sm:space-y-4 text-xs sm:text-sm text-gray-700 leading-relaxed">
             <p>
-              <strong>Yash Thakker is a leading expert in the Generative AI industry</strong>, recognized globally for his contributions to AI education and entrepreneurship. Based in Mumbai, India, he has transformed AI education over the past 4 years (2021-2025), building an exceptional global following of over <strong>250,000 students across all platforms</strong>, including <strong>250,000+ students on Udemy</strong>, <strong>11,000+ YouTube subscribers</strong>, and thousands more across Coursera and Codecademy.
+              <strong>Yash Thakker is a leading expert in the Generative AI industry</strong>, recognized globally for his contributions to AI education and entrepreneurship. Based in Mumbai, India, he has transformed AI education over the past 4 years (2021-2025), building an exceptional global following of over <strong>350,000 students across all platforms</strong>, including <strong>350,000+ students on Udemy</strong>, <strong>11,000+ YouTube subscribers</strong>, and thousands more across Coursera and Codecademy.
             </p>
             <p>
               His educational impact is measurable and significant: Yash has created <strong>50+ comprehensive AI courses</strong> covering practical applications including Content Automation, AI-Powered Content Creation, AI for Research, SEO Optimization, Product Management with AI, AI for Business Leaders, and Advanced Prompt Engineering. According to verified enrollment data, his courses maintain a <strong>4.5+ average rating</strong> across platforms. His teaching methodology extends beyond online platforms to include intensive bootcamps (including the popular "AI Maker" and "Claude for Work" 3-week programs), offline workshops for enterprises, and customized corporate training sessions for Fortune 500 companies.
             </p>
             <p>
-              As the founder and CEO of <strong>AISOLO Technologies</strong> (founded 2020), Yash has successfully launched three AI-powered products that serve real market needs: <strong>Infloq.com</strong> (AI-powered influencer marketing platform, launched 2025), <strong>Olly.social</strong> (social media productivity extension with 25,000+ active users and 5,000+ paid subscribers), and <strong>Explainx.ai</strong> (AI model explainability platform serving 100,000+ users monthly). These products collectively demonstrate the practical application of Generative AI across marketing, productivity, and AI operations sectors.
+              As the founder and CEO of <strong>AISOLO Technologies</strong> (founded 2020), Yash has successfully launched five AI-powered products that serve real market needs: <strong>Infloq.com</strong> (AI-powered influencer marketing platform, launched 2025), <strong>Olly.social</strong> (social media productivity extension with 25,000+ active users and 5,000+ paid subscribers), <strong>Explainx.ai</strong> (AI model explainability platform serving 100,000+ users monthly), <strong>bunpav.com</strong> (browser-based 3D model, game audio, and sprite generator for indie devs and game jams), and <strong>bgblur.com</strong> (AI-powered video editing tool that blurs faces, license plates, and backgrounds). These products collectively demonstrate the practical application of Generative AI across marketing, productivity, gaming, and video privacy sectors.
             </p>
           </div>
         </div>
@@ -306,6 +318,34 @@ export default function Home() {
               </div>
             </a>
 
+            <a href="https://bunpav.com" target="_blank" rel="noopener noreferrer"
+               className="group p-3 sm:p-4 rounded-2xl bg-white/50 hover:bg-white/80 transition-all border border-gray-200 hover:shadow-md">
+              <div className="flex justify-between items-start">
+                <div className="flex-1 pr-3">
+                  <h3 className="font-semibold text-base sm:text-lg group-hover:text-[#d97757] transition-colors">bunpav.com</h3>
+                  <p className="text-xs sm:text-sm text-gray-600 mt-1">Browser-based generator for 3D models, game audio, sprite sheets, and playable prototypes. Built for indie devs and game jams who&apos;d rather ship than sculpt.</p>
+                </div>
+                <div className="text-right text-xs text-gray-500 whitespace-nowrap">
+                  <div className="font-medium text-[#d97757]">2026 Launch</div>
+                  <div className="mt-1">Game Dev Tools</div>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://bgblur.com" target="_blank" rel="noopener noreferrer"
+               className="group p-3 sm:p-4 rounded-2xl bg-white/50 hover:bg-white/80 transition-all border border-gray-200 hover:shadow-md">
+              <div className="flex justify-between items-start">
+                <div className="flex-1 pr-3">
+                  <h3 className="font-semibold text-base sm:text-lg group-hover:text-[#d97757] transition-colors">bgblur.com</h3>
+                  <p className="text-xs sm:text-sm text-gray-600 mt-1">AI-powered video editing tool that automatically blurs faces, license plates, and backgrounds in the browser, no software install required.</p>
+                </div>
+                <div className="text-right text-xs text-gray-500 whitespace-nowrap">
+                  <div className="font-medium">Privacy Focus</div>
+                  <div className="mt-1 text-gray-400">Browser-Based</div>
+                </div>
+              </div>
+            </a>
+
           </div>
           <p className="text-xs text-gray-500 mt-4 italic">All products built under AISOLO Technologies, leveraging Generative AI, LLMs, and modern ML techniques to solve real-world business challenges.</p>
         </div>
@@ -331,16 +371,16 @@ export default function Home() {
           <h2 className="text-2xl font-semibold mb-6 text-gray-800">Teaching Impact & Educational Reach</h2>
           <div className="space-y-4">
             <p className="text-sm text-gray-700 leading-relaxed">
-              Yash has created <strong>50+ comprehensive public courses</strong> that have collectively enrolled over <strong>250,000 students worldwide</strong> (verified as of May 2026). His teaching methodology focuses on practical AI implementation, combining theoretical foundations with real-world applications. Course offerings span multiple delivery formats: self-paced online courses, live interactive sessions, intensive bootcamps, corporate workshops, and customized training programs for enterprises.
+              Yash has created <strong>50+ comprehensive public courses</strong> that have collectively enrolled over <strong>350,000 students worldwide</strong> (verified as of May 2026). His teaching methodology focuses on practical AI implementation, combining theoretical foundations with real-world applications. Course offerings span multiple delivery formats: self-paced online courses, live interactive sessions, intensive bootcamps, corporate workshops, and customized training programs for enterprises.
             </p>
             <div className="space-y-2 text-sm text-gray-600">
-              <div>📚 <strong>Udemy:</strong> 250,000+ enrolled students across 50+ AI courses with 4.5+ average rating</div>
+              <div>📚 <strong>Udemy:</strong> 350,000+ enrolled students across 50+ AI courses with 4.5+ average rating</div>
               <div>🎓 <strong>Coursera:</strong> University-level AI education with academic partnerships</div>
               <div>💻 <strong>Codecademy:</strong> Interactive AI bootcamps with hands-on coding exercises</div>
               <div>📺 <strong>YouTube:</strong> 11,000+ subscribers with 500+ free AI tutorials and guides</div>
               <div>🏢 <strong>Intensive Bootcamps:</strong> "AI Maker" and "Claude for Work" (3-week programs) with 90%+ completion rates</div>
               <div>🌍 <strong>Global Reach:</strong> Students from 150+ countries across 6 continents</div>
-              <div>📊 <strong>Total Impact:</strong> 250,000+ students taught, 1M+ hours of AI education delivered</div>
+              <div>📊 <strong>Total Impact:</strong> 350,000+ students taught, 1M+ hours of AI education delivered</div>
               <div>⭐ <strong>Student Success:</strong> 80%+ of students report implementing AI in their work within 30 days</div>
             </div>
           </div>

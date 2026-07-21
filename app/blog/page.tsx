@@ -10,6 +10,15 @@ export const metadata: Metadata = {
 export default function BlogPage() {
   const blogPosts = [
     {
+      id: 2,
+      title: 'Why We Built bunpav.com: Game Assets, Fresh Out of the Oven',
+      excerpt: 'The story behind bunpav.com — a browser-based 3D model, sprite, and game audio generator for indie developers and game jams, and why we built it the way we did.',
+      date: '2026-07-21',
+      readTime: '9 min read',
+      category: 'Product Build Log',
+      slug: 'why-we-built-bunpav'
+    },
+    {
       id: 1,
       title: 'Reflections from My Latest AI Bootcamp: Teaching 100+ Non-Coders',
       excerpt: 'Key insights from teaching over 100 students with zero coding experience how to build AI applications using modern tools like Cursor AI, ChatGPT, and Claude.',
