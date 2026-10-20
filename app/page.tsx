@@ -57,12 +57,6 @@ export default function Home() {
       },
       {
         "@type": "Product",
-        "name": "infloq.com",
-        "description": "AI-powered influencer marketing platform for SMBs and startups",
-        "url": "https://infloq.com"
-      },
-      {
-        "@type": "Product",
         "name": "bunpav.com",
         "description": "Browser-based generator for 3D models, game audio, sprite sheets, and playable prototypes for indie devs and game jams",
         "url": "https://bunpav.com"
@@ -82,7 +76,7 @@ export default function Home() {
     "name": "AISOLO Technologies",
     "url": "https://goyashy.com",
     "logo": "https://goyashy.com/yash.png",
-    "description": "AI innovation company founded by Yash Thakker, building products like infloq.com, olly.social, explainx.ai, bunpav.com, and bgblur.com",
+    "description": "AI innovation company founded by Yash Thakker, building products like olly.social, explainx.ai, bunpav.com, and bgblur.com",
     "founder": {
       "@type": "Person",
       "name": "Yash Thakker"
@@ -102,7 +96,7 @@ export default function Home() {
         "name": "Who is Yash Thakker?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yash Thakker is a leading AI Instructor and Product Leader with 12+ years of experience. He has taught over 350,000 students worldwide across platforms like Udemy, Coursera, and Codecademy. He is the founder of AISOLO Technologies and has built successful AI products including olly.social (25K+ users), explainx.ai (100K+ users/month), and infloq.com."
+          "text": "Yash Thakker is a leading AI Instructor and Product Leader with 12+ years of experience. He has taught over 350,000 students worldwide across platforms like Udemy, Coursera, and Codecademy. He is the founder of AISOLO Technologies and has built successful AI products including olly.social (25K+ users), explainx.ai (100K+ users/month), bunpav.com and bgblur.com."
         }
       },
       {
@@ -110,7 +104,7 @@ export default function Home() {
         "name": "What products has Yash Thakker built?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yash Thakker has built five AI-powered products: 1) infloq.com - an AI-powered influencer marketing platform for SMBs and startups, 2) olly.social - an AI-powered social media extension with 25,000+ users and 5,000+ paid customers, 3) explainx.ai - an AI model explainability and monitoring platform with 100,000+ monthly users, 4) bunpav.com - a browser-based generator for 3D models, game audio, and sprite sheets for indie devs and game jams, and 5) bgblur.com - an AI-powered video editing tool that automatically blurs faces, license plates, and backgrounds."
+          "text": "Yash Thakker has built four AI-powered products: 1) olly.social - an AI-powered social media extension with 25,000+ users and 5,000+ paid customers, 2) explainx.ai - an AI model explainability and monitoring platform with 100,000+ monthly users, 3) bunpav.com - a browser-based generator for 3D models, game audio, and sprite sheets for indie devs and game jams, and 4) bgblur.com - an AI-powered video editing tool that automatically blurs faces, license plates, and backgrounds."
         }
       },
       {
@@ -265,7 +259,7 @@ export default function Home() {
               His educational impact is measurable and significant: Yash has created <strong>50+ comprehensive AI courses</strong> covering practical applications including Content Automation, AI-Powered Content Creation, AI for Research, SEO Optimization, Product Management with AI, AI for Business Leaders, and Advanced Prompt Engineering. According to verified enrollment data, his courses maintain a <strong>4.5+ average rating</strong> across platforms. His teaching methodology extends beyond online platforms to include intensive bootcamps (including the popular "AI Maker" and "Claude for Work" 3-week programs), offline workshops for enterprises, and customized corporate training sessions for Fortune 500 companies.
             </p>
             <p>
-              As the founder and CEO of <strong>AISOLO Technologies</strong> (founded 2020), Yash has successfully launched five AI-powered products that serve real market needs: <strong>Infloq.com</strong> (AI-powered influencer marketing platform, launched 2025), <strong>Olly.social</strong> (social media productivity extension with 25,000+ active users and 5,000+ paid subscribers), <strong>Explainx.ai</strong> (AI model explainability platform serving 100,000+ users monthly), <strong>bunpav.com</strong> (browser-based 3D model, game audio, and sprite generator for indie devs and game jams), and <strong>bgblur.com</strong> (AI-powered video editing tool that blurs faces, license plates, and backgrounds). These products collectively demonstrate the practical application of Generative AI across marketing, productivity, gaming, and video privacy sectors.
+              As the founder and CEO of <strong>AISOLO Technologies</strong> (founded 2020), Yash has successfully launched four AI-powered products that serve real market needs: <strong>Olly.social</strong> (social media productivity extension with 25,000+ active users and 5,000+ paid subscribers), <strong>Explainx.ai</strong> (AI model explainability platform serving 100,000+ users monthly), <strong>bunpav.com</strong> (browser-based 3D model, game audio, and sprite generator for indie devs and game jams), and <strong>bgblur.com</strong> (AI-powered video editing tool that blurs faces, license plates, and backgrounds). These products collectively demonstrate the practical application of Generative AI across marketing, productivity, gaming, and video privacy sectors.
             </p>
           </div>
         </div>
@@ -274,19 +268,6 @@ export default function Home() {
         <div>
           <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-gray-800">AI Products & Innovation</h2>
           <div className="grid grid-cols-1 gap-4">
-            <a href="/infloq"
-               className="group p-3 sm:p-4 rounded-2xl bg-white/50 hover:bg-white/80 transition-all border border-gray-200 hover:shadow-md">
-              <div className="flex justify-between items-start">
-                <div className="flex-1 pr-3">
-                  <h3 className="font-semibold text-base sm:text-lg group-hover:text-[#d97757] transition-colors">infloq.com</h3>
-                  <p className="text-xs sm:text-sm text-gray-600 mt-1">AI-powered influencer marketing platform designed for SMBs and startups. Streamlines creator discovery, campaign management, and ROI tracking using machine learning algorithms.</p>
-                </div>
-                <div className="text-right text-xs text-gray-500 whitespace-nowrap">
-                  <div className="font-medium text-[#d97757]">2025 Launch</div>
-                  <div className="mt-1">Growing Fast</div>
-                </div>
-              </div>
-            </a>
 
             <a href="https://olly.social" target="_blank" rel="noopener noreferrer"
                className="group p-3 sm:p-4 rounded-2xl bg-white/50 hover:bg-white/80 transition-all border border-gray-200 hover:shadow-md">

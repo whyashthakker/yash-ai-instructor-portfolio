@@ -122,9 +122,9 @@ export default function AboutPage() {
             </div>
             
             <div className="border-l-4 border-gray-300 pl-4">
-              <h4 className="font-semibold text-gray-800">Maker - Infloq.com & Olly.social</h4>
+              <h4 className="font-semibold text-gray-800">Maker - Olly.social</h4>
               <p className="text-gray-600">2023 - Present</p>
-              <p className="text-gray-700 mt-2">AI-powered influencer marketing platform for SMBs and social media growth extension (25K+ users).</p>
+              <p className="text-gray-700 mt-2">AI-powered social media growth extension (25K+ users).</p>
             </div>
 
             <div className="border-l-4 border-gray-300 pl-4">

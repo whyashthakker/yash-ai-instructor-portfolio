@@ -4,8 +4,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Yash Thakker - AI Instructor & Product Leader | 350K+ Students Worldwide",
-  description: "Leading AI Instructor and Product Leader with 12+ years experience. Taught 350,000+ students across Udemy, Coursera, Codecademy. Worked with TATA, PayPal, Fortune 500s. Built olly.social (25K+ users), explainx.ai (100K+ users/month), infloq.com, bunpav.com & bgblur.com. Expert in Generative AI, LLMs, Machine Learning, SaaS development, AI Consulting.",
-  keywords: ["Yash Thakker", "AI Instructor", "Generative AI", "Product Management", "Machine Learning", "LLMs", "ChatGPT", "OpenAI", "Claude AI", "SaaS", "Udemy", "Coursera", "Codecademy", "TATA", "PayPal", "olly.social", "explainx.ai", "infloq.com", "bunpav.com", "bgblur.com", "AI Consulting", "AI Strategy", "Technical Leadership", "Online Education", "AI Courses", "Programming", "Python", "Data Science", "Deep Learning", "Neural Networks", "AI Model Explainability", "Influencer Marketing Platform"],
+  description: "Leading AI Instructor and Product Leader with 12+ years experience. Taught 350,000+ students across Udemy, Coursera, Codecademy. Worked with TATA, PayPal, Fortune 500s. Built olly.social (25K+ users), explainx.ai (100K+ users/month), bunpav.com & bgblur.com. Expert in Generative AI, LLMs, Machine Learning, SaaS development, AI Consulting.",
+  keywords: ["Yash Thakker", "AI Instructor", "Generative AI", "Product Management", "Machine Learning", "LLMs", "ChatGPT", "OpenAI", "Claude AI", "SaaS", "Udemy", "Coursera", "Codecademy", "TATA", "PayPal", "olly.social", "explainx.ai", "bunpav.com", "bgblur.com", "AI Consulting", "AI Strategy", "Technical Leadership", "Online Education", "AI Courses", "Programming", "Python", "Data Science", "Deep Learning", "Neural Networks", "AI Model Explainability", "Influencer Marketing Platform"],
   authors: [{ name: "Yash Thakker", url: "https://goyashy.com" }],
   creator: "Yash Thakker",
   publisher: "Yash Thakker",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Yash Thakker - AI Instructor & Product Leader | 350K+ Students Worldwide",
-    description: "Leading AI Instructor with 12+ years experience. Built olly.social (25K+ users), explainx.ai (100K+ users/month), infloq.com, bunpav.com & bgblur.com. Taught 350,000+ students across top platforms. Expert in Generative AI, LLMs, and Product Management.",
+    description: "Leading AI Instructor with 12+ years experience. Built olly.social (25K+ users), explainx.ai (100K+ users/month), bunpav.com & bgblur.com. Taught 350,000+ students across top platforms. Expert in Generative AI, LLMs, and Product Management.",
     type: "website",
     url: "https://goyashy.com",
     siteName: "Yash Thakker - AI Instructor",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     site: "@goyashy",
     creator: "@goyashy",
     title: "Yash Thakker - AI Instructor & Product Leader | 350K+ Students",
-    description: "Leading AI Instructor with 350K+ students taught. Built olly.social, explainx.ai, infloq.com, bunpav.com & bgblur.com. Expert in Generative AI, LLMs, and Product Management.",
+    description: "Leading AI Instructor with 350K+ students taught. Built olly.social, explainx.ai, bunpav.com & bgblur.com. Expert in Generative AI, LLMs, and Product Management.",
     images: ["https://goyashy.com/yash.png"],
   },
   alternates: {

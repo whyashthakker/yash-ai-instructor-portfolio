@@ -3,7 +3,7 @@ import Navigation from '../components/Navigation';
 
 export const metadata: Metadata = {
   title: 'FAQ - Yash Thakker | AI Instructor & Product Leader | 350K+ Students',
-  description: 'Frequently asked questions about AI instruction, consulting, and product development by Yash Thakker. Learn about 50+ AI courses, corporate training, consulting services, and AI products (olly.social, explainx.ai, infloq.com).',
+  description: 'Frequently asked questions about AI instruction, consulting, and product development by Yash Thakker. Learn about 50+ AI courses, corporate training, consulting services, and AI products (olly.social, explainx.ai, bunpav.com, bgblur.com).',
   keywords: ['AI instructor FAQ', 'AI consulting questions', 'AI course FAQ', 'Yash Thakker services', 'AI training information', 'Generative AI courses', 'corporate AI training', 'AI product development', 'Udemy AI instructor', 'Coursera AI courses'],
 };
 
@@ -49,7 +49,7 @@ export default function FAQPage() {
         "name": "What AI products has Yash Thakker built?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yash Thakker has built five successful AI products under AISOLO Technologies: 1) infloq.com - AI-powered influencer marketing platform (launched 2025), 2) olly.social - social media productivity extension with 25,000+ active users and 5,000+ paid subscribers (20% conversion rate), 3) explainx.ai - enterprise-grade AI model explainability platform serving 100,000+ monthly users, 4) bunpav.com - a browser-based generator for 3D models, game audio, and sprite sheets for indie devs and game jams, and 5) bgblur.com - an AI-powered video editing tool that automatically blurs faces, license plates, and backgrounds."
+          "text": "Yash Thakker has built four successful AI products under AISOLO Technologies: 1) olly.social - social media productivity extension with 25,000+ active users and 5,000+ paid subscribers (20% conversion rate), 2) explainx.ai - enterprise-grade AI model explainability platform serving 100,000+ monthly users, 3) bunpav.com - a browser-based generator for 3D models, game audio, and sprite sheets for indie devs and game jams, and 4) bgblur.com - an AI-powered video editing tool that automatically blurs faces, license plates, and backgrounds."
         }
       },
       {
@@ -148,7 +148,7 @@ export default function FAQPage() {
               <div className="pb-6">
                 <h3 className="text-lg font-semibold text-[#d97757] mb-2">Do you work with startups?</h3>
                 <p className="text-gray-700">
-                  Yes! As the founder of <strong>AISOLO Technologies</strong> (established 2020), I have extensive experience working with startups to implement AI solutions and develop AI-powered products. I've successfully launched <strong>five AI products</strong> (infloq.com, olly.social, explainx.ai, bunpav.com, bgblur.com) and understand the unique challenges early-stage companies face. I offer flexible engagement models including fractional AI leadership, product development consultation, and technical architecture guidance tailored to startup budgets and timelines.
+                  Yes! As the founder of <strong>AISOLO Technologies</strong> (established 2020), I have extensive experience working with startups to implement AI solutions and develop AI-powered products. I've successfully launched <strong>four AI products</strong> (olly.social, explainx.ai, bunpav.com, bgblur.com) and understand the unique challenges early-stage companies face. I offer flexible engagement models including fractional AI leadership, product development consultation, and technical architecture guidance tailored to startup budgets and timelines.
                 </p>
               </div>
             </div>
@@ -161,12 +161,11 @@ export default function FAQPage() {
               <div className="border-b border-gray-100 pb-6">
                 <h3 className="text-lg font-semibold text-[#d97757] mb-2">What products have you built?</h3>
                 <p className="text-gray-700">
-                  I've built five successful AI products under <strong>AISOLO Technologies</strong>:
-                  <strong>(1) infloq.com</strong> - AI-powered influencer marketing platform (launched 2025) for SMBs and startups,
-                  <strong>(2) olly.social</strong> - social media productivity extension with <strong>25,000+ active users</strong> and <strong>5,000+ paid subscribers</strong> (20% conversion rate),
-                  <strong>(3) explainx.ai</strong> - enterprise-grade AI model explainability platform serving <strong>100,000+ monthly users</strong>,
-                  <strong>(4) bunpav.com</strong> - a browser-based generator for 3D models, game audio, and sprite sheets for indie devs and game jams, and
-                  <strong>(5) bgblur.com</strong> - an AI-powered video editing tool that automatically blurs faces, license plates, and backgrounds. All products leverage Generative AI, LLMs, and modern ML techniques to solve real-world business challenges.
+                  I've built four successful AI products under <strong>AISOLO Technologies</strong>:
+                  <strong>(1) olly.social</strong> - social media productivity extension with <strong>25,000+ active users</strong> and <strong>5,000+ paid subscribers</strong> (20% conversion rate),
+                  <strong>(2) explainx.ai</strong> - enterprise-grade AI model explainability platform serving <strong>100,000+ monthly users</strong>,
+                  <strong>(3) bunpav.com</strong> - a browser-based generator for 3D models, game audio, and sprite sheets for indie devs and game jams, and
+                  <strong>(4) bgblur.com</strong> - an AI-powered video editing tool that automatically blurs faces, license plates, and backgrounds. All products leverage Generative AI, LLMs, and modern ML techniques to solve real-world business challenges.
                 </p>
               </div>
 

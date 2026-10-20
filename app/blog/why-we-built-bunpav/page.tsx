@@ -48,7 +48,7 @@ export default function WhyWeBuiltBunpavPage() {
             </p>
             <p>
               I&apos;ve spent the last few years building AI products (<Link href="/" className="text-[#d97757] hover:underline">explainx.ai</Link>,
-              olly.social, infloq.com) and teaching over 350,000 students how to use AI tools practically. The pattern
+              olly.social) and teaching over 350,000 students how to use AI tools practically. The pattern
               I kept seeing in the indie dev and game jam communities was almost identical to what I&apos;d seen elsewhere:
               a huge gap between &quot;I have an idea&quot; and &quot;I have the raw material to build it,&quot; and existing
               3D and audio tools assumed you already had Blender, a DAW, and years of practice with both. That gap is
@@ -167,7 +167,7 @@ export default function WhyWeBuiltBunpavPage() {
               useful on its own, not just a teaser — that&apos;s the same reasoning behind bunpav&apos;s no-account-required
               free asset library. explainx.ai taught us that trust in a technical tool comes from being specific about
               limitations, not from marketing copy — which is why bunpav labels tools honestly as beta, free, or
-              &quot;soon&quot; instead of presenting everything as equally finished. And infloq.com reinforced that the
+              &quot;soon&quot; instead of presenting everything as equally finished. And every launch since has reinforced that the
               fastest way to find out if a product idea actually works is to get a usable version in front of real
               users quickly, then let their behavior — not our assumptions — decide the roadmap.
             </p>
@@ -190,7 +190,7 @@ export default function WhyWeBuiltBunpavPage() {
             <div className="border-t border-gray-200 pt-6 mt-8">
               <p className="text-sm text-gray-600">
                 bunpav.com is built and maintained under AISOLO Technologies Private Limited, alongside olly.social,
-                explainx.ai, infloq.com, and bgblur.com.
+                explainx.ai, and bgblur.com.
               </p>
             </div>
           </div>
